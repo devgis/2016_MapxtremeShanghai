@@ -1,0 +1,9 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 2
+    Name Char (254) ;
+    Kind Char (128) ;

@@ -1,0 +1,356 @@
+!Workspace
+!Version 600
+!Charset WindowsSimpChinese
+Open Table "省会" As 省会 Interactive
+Open Table "地级市" As 地级市 Interactive
+Open Table "县" As 县 Interactive
+Open Table "镇" As 镇 Interactive
+Open Table "村" As 村 Interactive
+Open Table "政府机构" As 政府机构 Interactive
+Open Table "公园" As 公园 Interactive
+Open Table "大厦" As 大厦 Interactive
+Open Table "宾馆酒店" As 宾馆酒店 Interactive
+Open Table "医疗" As 医疗 Interactive
+Open Table "学校" As 学校 Interactive
+Open Table "银行" As 银行 Interactive
+Open Table "药店" As 药店 Interactive
+Open Table "餐饮" As 餐饮 Interactive
+Open Table "公交站" As 公交站 Interactive
+Open Table "出入口" As 出入口 Interactive
+Open Table "收费站" As 收费站 Interactive
+Open Table "停车场" As 停车场 Interactive
+Open Table "超市商城" As 超市商城 Interactive
+Open Table "其他信息" As 其他信息 Interactive
+Open Table "高速" As 高速 Interactive
+Open Table "城市快速路" As 城市快速路 Interactive
+Open Table "国道" As 国道 Interactive
+Open Table "省道" As 省道 Interactive
+Open Table "县道" As 县道 Interactive
+Open Table "乡镇村道" As 乡镇村道 Interactive
+Open Table "其他路" As 其他路 Interactive
+Open Table "地铁轻轨" As 地铁轻轨 Interactive
+Open Table "铁路" As 铁路 Interactive
+Open Table "轮渡" As 轮渡 Interactive
+Open Table "绿地" As 绿地 Interactive
+Open Table "水系" As 水系 Interactive
+Open Table "岛" As 岛 Interactive
+Open Table "县界" As 县界 Interactive
+Open Table "市界" As 市界 Interactive
+Open Table "省界" As 省界 Interactive
+Set Window Info
+  Position (15.4271,9.04167) Units "in"
+  Width 2.60417 Units "in" Height 1.0625 Units "in" 
+  Font ("System",0,12,0)
+Open Window Info
+Map From 省会,地级市,县,镇,村,政府机构,
+  公园,大厦,宾馆酒店,医疗,学校,银行,
+  药店,餐饮,公交站,出入口,收费站,停车场,
+  超市商城,其他信息,高速,城市快速路,国道,省道,
+  县道,乡镇村道,其他路,地铁轻轨,铁路,轮渡,
+  绿地,水系,岛,县界,市界,省界 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 9.91667 Units "in" Height 4.78125 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 104
+  Center (121.5906906,31.23801561)
+  Zoom 181.5280135 Units "mi"
+  Preserve Zoom Display Zoom
+  Distance Units "mi" Area Units "sq km" XY Units "degree"
+Set Map
+  Layer 1
+    Display Graphic
+    Global   Symbol (35,0,12)   
+    Zoom (310.686, 62137.12) Units "mi" 
+    Label Line Arrow Position Above Font ("宋体",257,10,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 4
+      Visibility On
+  Layer 2
+    Display Graphic
+    Global   Symbol (35,0,12)   
+    Zoom (248.548, 3106.86) Units "mi" 
+    Label Line Arrow Position Above Font ("宋体",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 3
+      Visibility On
+  Layer 3
+    Display Graphic
+    Global   Symbol (35,0,12)   
+    Zoom (31.0686, 100) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Global
+    Global   Symbol (31,0,12)   
+    Zoom (0, 124.274) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Global
+    Global   Symbol (31,0,12)   
+    Zoom (0, 18.6411) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,10066262,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 6
+    Display Global
+    Global   Symbol (36,16711680,8,"MapInfo Symbols",0,0)   
+    Zoom (0, 6.21371) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 4
+      Visibility On
+  Layer 7
+    Display Global
+    Global   Symbol (65,45144,10,"MapInfo Miscellaneous",0,0)   
+    Zoom (0, 6.21371) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 8
+    Display Global
+    Global   Symbol (50,32896,7,"MapInfo Real Estate",0,0)   
+    Zoom (0, 3.10686) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 6
+      Visibility On
+  Layer 9
+    Display Global
+    Global   Symbol (55,8404992,10)   
+    Zoom (0, 3.10686) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 6
+      Visibility On
+  Layer 10
+    Display Global
+    Global   Symbol (70,12582912,5,"MapInfo Cartographic",0,0)   
+    Zoom (0, 3.10686) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 6
+      Visibility On
+  Layer 11
+    Display Global
+    Global   Symbol (53,16719904,10)   
+    Zoom (0, 3.72823) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 5
+      Visibility On
+  Layer 12
+    Display Global
+    Global   Symbol (49,32768,7,"MapInfo Real Estate",0,0)   
+    Zoom (0, 3.72823) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 5
+      Visibility On
+  Layer 13
+    Display Global
+    Global   Symbol (56,16711680,7)   
+    Zoom (0, 2.48548) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 5
+      Visibility On
+  Layer 14
+    Display Global
+    Global   Symbol (61,10496000,9,"MapInfo Symbols",0,0)   
+    Zoom (0, 2.23694) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 5
+      Visibility On
+  Layer 15
+    Display Global
+    Global   Symbol (66,16744448,11,"MapInfo Miscellaneous",0,0)   
+    Zoom (0, 3.10686) Units "mi" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 16
+    Display Global
+    Global   Symbol (34,16760960,6)   
+    Zoom (0, 6.21371) Units "mi" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 17
+    Display Global
+    Global   Symbol (93,16736352,8,"MapInfo Miscellaneous",0,0)   
+    Zoom (0, 3.10686) Units "mi" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 18
+    Display Global
+    Global   Symbol (43,7347200,8,"MapInfo Transportation",0,0)   
+    Zoom (0, 2.48548) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 4
+      Visibility On
+  Layer 19
+    Display Global
+    Global   Symbol (37,12582912,7,"MapInfo Miscellaneous",0,0)   
+    Zoom (0, 1.86411) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,5066061,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 5
+      Visibility On
+  Layer 20
+    Display Global
+    Global   Symbol (32,8421504,6)   
+    Zoom (0, 1.86411) Units "mi" 
+    Label Line Arrow Position Right Font ("宋体",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 4
+      Visibility On
+  Layer 21
+    Display Global
+    Global   Symbol (35,0,12)  Line (4,2,16759603)  
+    Zoom (0, 621.371) Units "mi" 
+    Label Line Arrow Position Center Font ("宋体",256,12,255,16777215) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 500.00065) Units "mi"
+  Layer 22
+    Display Global
+    Global   Symbol (35,0,12)  Line (4,2,16759603)  
+    Zoom (0, 621.371) Units "mi" 
+    Label Line Arrow Position Center Font ("宋体",256,11,0,16772272) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 199.9996163) Units "mi"
+  Layer 23
+    Display Global
+    Global   Symbol (35,0,12)  Line (3,2,16569695)  
+    Zoom (0, 2485.48) Units "mi" 
+    Label Line Arrow Position Center Font ("宋体",256,11,0,16774352) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 99.99996906) Units "mi"
+  Layer 24
+    Display Global
+    Global   Symbol (35,0,12)  Line (3,2,16764992)  
+    Zoom (0, 62.1371) Units "mi" 
+    Label Line Arrow Position Above Font ("微软雅黑",256,9,0,16777215) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 25
+    Display Global
+    Global   Symbol (35,0,12)  Line (4,2,16772761)  
+    Zoom (0, 62.1371) Units "mi" 
+    Label Line Arrow Position Center Font ("宋体",256,12,11103535,16777215) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 99.99996906) Units "mi"
+  Layer 26
+    Display Global
+    Global   Symbol (35,0,12)  Line (3,191,16764992)  
+    Zoom (0, 18.6411) Units "mi" 
+    Label Line Arrow Position Center Font ("宋体",256,11,4210752,16777168) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 50.000065) Units "mi"
+  Layer 27
+    Display Global
+    Global   Symbol (35,0,12)  Line (4,191,14737632)  
+    Zoom (0, 4.97097) Units "mi" 
+    Label Line Arrow Position Center Font ("宋体",256,11,0,16774352) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 28
+    Display Graphic
+    Global   Symbol (35,0,12)   
+    Zoom (0, 12.4274) Units "mi" 
+    Label Line Arrow Position Above Font ("Arial",0,12,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 29
+    Display Graphic
+    Global   Symbol (35,0,12)   
+    Zoom (0, 310.686) Units "mi" 
+    Label Line Arrow Position Above Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Kind
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 30
+    Display Global
+    Global   Symbol (35,0,12)  Line (1,6,22015)  
+    Zoom (0, 62.1371) Units "mi" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,9,0,16777215) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 31
+    Display Graphic
+    Global   Symbol (35,0,12)   
+    Zoom (0, 62.1371) Units "mi" 
+    Label Line Arrow Position Above Font ("宋体",0,10,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 32
+    Display Graphic
+    Global   Symbol (35,0,12)   
+    Zoom (0, 124.274) Units "mi" Off 
+    Label Line None Position Center Font ("宋体",256,9,32768,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 19.99996163) Units "mi"
+  Layer 33
+    Display Global
+    Global Pen (1,1,16777215)  Brush (2,15395302,16777215)  Symbol (35,0,12)   
+    Zoom (0, 310.686) Units "mi" 
+    Label Line None Position Center Font ("宋体",256,9,4810115,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 99.99996906) Units "mi"
+  Layer 34
+    Display Global
+    Global Pen (1,2,11579568)  Brush (2,16776432,16777215)  Symbol (31,0,12)   
+    Zoom (0, 186.411) Units "mi" Off 
+    Label Line None Position Center Font ("宋体",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (100, 500) Units "mi"
+  Layer 35
+    Display Global
+    Global Pen (1,1,12632256)  Brush (1,16776432,16777215)  Symbol (35,0,12)   
+    Zoom (0, 310.686) Units "mi" Off 
+    Label Line None Position Center Font ("宋体",256,9,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 500.00065) Units "mi"
+  Layer 36
+    Display Global
+    Global Pen (1,2,12632256)  Brush (2,15921129,16777215)  Symbol (35,0,12)   
+    Zoom (310.686, 1242742.38) Units "mi" 
+    Label Line None Position Center Font ("宋体",0,9,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Map Layer 36 Editable
+Set Window FrontWindow() Printer
+ Name "Microsoft XPS Document Writer" Orientation Portrait Copies 1
+ Papersize 9
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow
